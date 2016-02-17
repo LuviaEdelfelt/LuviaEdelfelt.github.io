@@ -76,7 +76,8 @@ h2 {
 	margin-bottom: 35px;
 	border: 1px;
 	color: white;
-	font: Cookie, Arial, Helvetica, sans-serif;
+	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+	background-color: #292c2f;
 }
 
 .header-basic {
@@ -154,14 +155,20 @@ body {
 .header1 {
 	margin-top: 20px;
 	margin-bottom: 20px;
+	background-color: #292c2f;
 }
 
 ul {
     list-style-position: inside;
+	list-style-type: square;
 }
 
 .two
 {
     display: inline-block;
     margin: 0 auto;
+}
+
+.blue {
+	color: #5383d3;
 }
