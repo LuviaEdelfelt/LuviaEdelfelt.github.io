@@ -158,3 +158,9 @@ body {
 ul {
     list-style-position: inside;
 }
+
+.two
+{
+    display: inline-block;
+    margin: 0 auto;
+}
