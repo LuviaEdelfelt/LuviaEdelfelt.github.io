@@ -71,13 +71,19 @@ h2 {
   animation-direction: alternate;
 }
 
+.hvr-pulse-grow:hover div:after{
+  content: ' ~OHOHOHOHOHOHO~';
+}
+
+.hvr-pulse-grow:hover .invis{
+}
+
 .gobanned {
 	margin-top: 35px;
 	margin-bottom: 35px;
 	border: 1px;
 	color: white;
-	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
-	background-color: #292c2f;
+	font: Arial, Helvetica, sans-serif;
 }
 
 .header-basic {
@@ -155,20 +161,14 @@ body {
 .header1 {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	background-color: #292c2f;
 }
 
 ul {
     list-style-position: inside;
-	list-style-type: square;
 }
 
 .two
 {
     display: inline-block;
     margin: 0 auto;
-}
-
-.blue {
-	color: #5383d3;
 }
